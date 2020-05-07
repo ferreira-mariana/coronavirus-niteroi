@@ -32,7 +32,6 @@ h1 {
 iframe {
     display: block;
     margin: 0 auto;
-    width: 90%;
 }
 
 footer {
@@ -41,8 +40,8 @@ footer {
     background-color: #d3d3d3;
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   iframe {
-    width: 450px;
+    width: 90%;
   }
-} */
+}
