@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Play;
+    src: url("fonts/Play-Regular.ttf")
+}
+
+html, body, h1 {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    background-color: #21618c;
+    color: #fafafa;
+    padding: 20px 0;
+    margin-bottom: 12px;
+}
+
+.container {
+    max-width: 920px;
+    margin: 20px auto;
+    padding: 0 2%;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+footer {
+    padding: 20px 5%;
+    text-align: right;
+    background-color: #d3d3d3;
+}
+
+/* @media only screen and (max-width: 600px) {
+  iframe {
+    width: 450px;
+  }
+} */
